@@ -1,0 +1,40 @@
+.navbar{
+    width:100%;
+    height: 50px;
+    background:rgb(4, 253, 241);
+    padding:auto;
+}
+.carrusel{
+    width:100%;
+    height:350px;
+    background: rgb(255, 0, 0);
+    padding: auto;
+}
+.doble{
+    width:100%;
+    height:300px;
+    padding: auto;
+}
+.seccion1{
+    width:50%;
+    height:190px;
+    background:rgb(243, 247, 4);
+}
+.seccion2{
+    width:50%;
+    height:190px;
+    background:rgb(253, 136, 2);
+    position: relative;
+    float: right!important;
+}
+.seccion3{
+    width:100%;
+    height:190px;
+    background:rgb(247, 3, 247);
+}
+.footer{
+    width:100% ;
+    padding: auto;
+    height: 50px;
+    background: rgb(255, 255, 255);
+}
