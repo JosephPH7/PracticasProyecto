@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px ;
+}
+.mobile-menu{
+    display: block;
+    width: 100%;
+    background-color: rgb(235, 18, 235);
+    line-height: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.mobile-menu ul{
+    list-style-type: none;
+    margin: o auto;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(223, 10, 169, 0.726);
+}
+.mobile-menu li{
+    display: inline-block;
+}
+.mobile-menu li a{
+    display: block;
+    min-width: 140px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.664);
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
