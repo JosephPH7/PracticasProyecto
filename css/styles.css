@@ -1,0 +1,71 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 40px;
+}
+
+#resultado {
+    font-weight: bold;
+}
+
+/* Estilos de los botones según su color */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
