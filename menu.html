@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Menu</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/Barra.css">
+    <title>Menu y home</title>
 </head>
 <body>
+    <!--Se trabajo el menu responsivo-->
     <nav class="mobile-menu">
         <label for="show-menu" class="show-menu">
             <span>Menu</span>
@@ -15,12 +17,56 @@
         </label>
         <input type="checkbox" id="show-menu">
         <ul id="menu">
-         <li><a href="#">Inicio</a></li>
-         <li><a href="#">Acerca de</a></li>
-         <li><a href="#">Portafolio</a></li>
-         <li><a href="#">Noticia</a></li>
-         <li><a href="#">Contacto</a></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Noticia</a></li>
+        <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
+    <!--inicia barra de contacto-->
+    <div class="Total">
+        <div class="barra">
+            <div class="parte1">
+                <ul>
+                    <li><a href="tel:5555555555">Telefono: 55-55-55-55-55 |</a></li>
+                    <li><a href="https://twitter.com" target="_blank">twitter |</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook |</a></li>
+                    <li><a href="htpps://instagram.com/" target="_blank">Instagram |</a></li>
+                </ul>
+            </div>
+            <div class="parte2">
+                <form action="#" method="post">
+                    <input type="text" placeholder="Buscar" class="cajabuscar" id="Buscar">
+                    <button onclick="buscar();" class="btnBuscar">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Termina la barra contacto-->
+    <!--inicia el parallax-->
+    <div class="main">
+        <section class="content">
+            <div class="parallax img-uno" id="m">
+                <div class="texto-interior">
+                    <h2 id="m">Diseño y Desarrollo Web.</h2>
+                    <p>Damos vida a tus sueños</p>
+                </div>
+            </div>
+        </section>
+        <!-- .parallax-->
+        <script>
+            function buscar(){
+                //var cajabuscar = document.getElementById("Buscar").value;
+                var cajabuscar = prompt ("¿Que deceas buscar?");
+                if (cajabuscar == ""){
+                alert("no colocaste nada en el buscador")
+                }
+                else{
+                alert("Tu criterio de busqueda es:"+ cajabuscar)
+                }
+            }
+        </script>
+    </div>
 </body>
 </html>
